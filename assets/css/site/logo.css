@@ -1,11 +1,11 @@
 @font-face {
    font-family: "logo";
-   src: url("../fonts/toledo-regular.otf");
+   src: url("../fonts/logo.otf");
 }
 
 @font-face {
    font-family: "logoscript";
-   src: url("../fonts/FontsFree-Net-Shelley-Allegro-BT.ttf");
+   src: url("../fonts/logo-ampersand.otf");
 }
 
 .logo-text {
