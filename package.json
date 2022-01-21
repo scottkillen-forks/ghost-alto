@@ -1,7 +1,7 @@
 {
-    "name": "alto",
+    "name": "alto-custom",
     "description": "A Ghost theme",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "ghost": ">=4.0.0",
         "ghost-api": "v4"
@@ -43,16 +43,19 @@
         "custom": {
             "title_font": {
                 "type": "select",
-                "options": ["Modern sans-serif", "Elegant serif"],
+                "options": [
+                    "Modern sans-serif",
+                    "Elegant serif"
+                ],
                 "default": "Modern sans-serif"
             },
             "body_font": {
                 "type": "select",
-                "options": ["Modern sans-serif", "Elegant serif"],
+                "options": [
+                    "Modern sans-serif",
+                    "Elegant serif"
+                ],
                 "default": "Modern sans-serif"
-            },
-            "white_logo_for_dark_mode": {
-                "type": "image"
             },
             "show_featured_posts": {
                 "type": "boolean",
@@ -87,7 +90,8 @@
         "beeper": "2.1.0",
         "cssnano": "5.0.15",
         "gscan": "4.22.0",
-        "gulp": "4.0.2",
+        "gulp": "^4.0.2",
+        "gulp-cli": "^2.3.0",
         "gulp-concat": "2.6.1",
         "gulp-livereload": "4.0.2",
         "gulp-postcss": "9.0.1",
