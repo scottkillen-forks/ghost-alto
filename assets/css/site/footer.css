@@ -43,6 +43,10 @@
     font-weight: 400;
 }
 
+.footer-info {
+    margin-top: -1.5vh;
+}
+
 @media (max-width: 767px) {
     .site-footer {
         flex-direction: column;
